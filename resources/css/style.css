@@ -31,8 +31,10 @@ li, a {
   flex-grow: 1;
 }
 
-.nav {
+.navbar {
   flex-grow: 2;
+  text-align: right;
+  margin-right: 8px;
 }
 
 .container {
