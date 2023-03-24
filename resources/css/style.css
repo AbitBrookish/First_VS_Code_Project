@@ -7,6 +7,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: rgb(245, 255, 255);
 }
 
 li, a {
@@ -36,6 +37,16 @@ li, a {
 
 .container {
   background-color: bisque;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.5), url("/resources/images/wim-van-t-einde-artistic_trumpet-unsplash.jpg"));
+  background-image: url(/resources/images/wim-van-t-einde-artistic_trumpet-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  color: #ccc;
 }
