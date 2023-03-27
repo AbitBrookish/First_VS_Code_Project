@@ -7,12 +7,14 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: rgb(245, 255, 255);
+  background-color: black;
+  color: seashell
 }
 
 li, a {
   list-style: none;
   text-decoration: none;
+  color: black;
 }
 
 .header {
@@ -21,7 +23,7 @@ li, a {
   justify-content: space-between;
   height: 50px;
   border-bottom: 1px solid #ccc;
-  background-color: rgb(245, 255, 255);
+  background-color: inherit;
 }
 
 #logo {
@@ -35,6 +37,17 @@ li, a {
   flex-grow: 2;
   text-align: right;
   margin-right: 8px;
+}
+
+.navbar a {
+  color: seashell;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.navbar a:hover, .navbar a:focus {
+  color: white;
+  text-decoration: underline;
 }
 
 .container {
