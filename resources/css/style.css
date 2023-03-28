@@ -96,5 +96,30 @@ li, a {
 }
 
 /* Article and Info */
+.info__container {
+  margin: 3rem 15%;
+}
+
+.info__section {
+  margin: 4rem;
+}
+
+.info__header {
+  min-width: 300px;
+  max-width: 650px;
+}
+
+.info__header__p {
+  line-height: 180%;
+  max-width: 650px;
+  min-width: 300px;
+  border-top: 2px solid #34727f;
+}
+
+.info__header {
+  text-transform: uppercase;
+  text-align: right;
+}
+
 /* Options Section */
 /* Footer */
