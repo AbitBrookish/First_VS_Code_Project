@@ -1,3 +1,5 @@
+
+/* page styles */
 * {
   box-sizing: border-box;
 }
@@ -23,6 +25,7 @@ li, a {
   border: 3px solid #34727f;
 }
 
+/* Header (logo, navbar) */
 .header {
   display: flex;
   align-items: center;
@@ -56,6 +59,7 @@ li, a {
   text-decoration: underline;
 }
 
+/* Jumbotron */
 .container {
   background-color: bisque;
   background-image: url(/resources/images/wim-van-t-einde-artistic_trumpet-unsplash.jpg);
@@ -72,3 +76,25 @@ li, a {
   color: #ccc;
   border-bottom: 4px solid #34727f;
 }
+
+.jumbotron__cta-btn {
+  margin: 0 1rem;
+  padding: 0.6rem 1rem;
+  background-color: transparent;
+}
+
+.jumbotron__cta-btn-link {
+  color: seashell;
+}
+
+.jumbotron__cta-btn:hover,.jumbotron__cta-btn:focus {
+  cursor: pointer;
+  backdrop-filter: blur(3px);
+  transition-property: backdrop-filter;
+  transition-duration: 450ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Article and Info */
+/* Options Section */
+/* Footer */
